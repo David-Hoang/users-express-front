@@ -37,12 +37,9 @@
   padding: 2em;
 }
 
-.read-the-docs {
-  color: #888;
-}
-
 .user-list {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   gap : 0.5rem;
   list-style-type: none;
@@ -52,4 +49,9 @@
   border : 1px green solid;
   border-radius: 1rem;
   padding: 1rem;
+}
+
+.form-add-user {
+  display : flex;
+  flex-direction: column;
 }
